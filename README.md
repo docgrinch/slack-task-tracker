@@ -22,7 +22,7 @@ Turns emoji-flagged Slack messages into a weekly Markdown report, delivered as a
 ### 1. Clone the repo
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/docgrinch/slack-task-tracker.git
 cd slack-task-tracker
 ```
 
