@@ -40,7 +40,7 @@ npm ci
 
 You need your own app + token; this repo never ships or requires anyone else's credentials.
 
-1. Go to https://api.slack.com/apps → **Create New App** → **From scratch**.
+1. Go to https://api.slack.com/apps → **Create New App** → **Blank app**.
 2. Name it and select your workspace.
 3. Go to **OAuth & Permissions** → under **User Token Scopes**, add:
    - `reactions:read`
@@ -48,7 +48,7 @@ You need your own app + token; this repo never ships or requires anyone else's c
    - `channels:read`, `groups:read`, `im:read`
    - `chat:write`
    - `im:write`
-4. Click **Install to Workspace** and authorize.
+4. Click **Install to Workspace** and allow.
 5. Copy the **User OAuth Token** (starts with `xoxp-`).
 
 > ⚠️ **This token acts as your own Slack identity.** It can read anything you personally can read in the workspace. Treat it exactly like a password: never commit it, never share it, rotate it periodically via **OAuth & Permissions → Reinstall App**. Only request the scopes listed above — resist the temptation to add more "just in case."
