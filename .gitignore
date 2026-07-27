@@ -1,0 +1,7 @@
+.env
+tasks.json
+flag_log.json
+weekly_report.md
+reports/
+cron.log
+node_modules/
